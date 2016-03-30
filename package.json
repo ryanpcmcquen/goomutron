@@ -1,14 +1,14 @@
 {
-  "name": "amatron",
-  "version": "0.1.2",
-  "description": "Amazon Cloud Drive app powered by Electron",
+  "name": "playmutron",
+  "version": "0.1.0",
+  "description": "Google Play Music app powered by Electron",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js &"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryanpcmcquen/amatron.git"
+    "url": "git+https://github.com/ryanpcmcquen/playmutron.git"
   },
   "keywords": [
     "Electron",
@@ -18,9 +18,9 @@
   "author": "Ryan P.C. McQuen",
   "license": "GPL-2.0+",
   "bugs": {
-    "url": "https://github.com/ryanpcmcquen/amatron/issues"
+    "url": "https://github.com/ryanpcmcquen/playmutron/issues"
   },
-  "homepage": "https://github.com/ryanpcmcquen/amatron",
+  "homepage": "https://github.com/ryanpcmcquen/playmutron",
   "devDependencies": {
     "electron-prebuilt": "*"
   }

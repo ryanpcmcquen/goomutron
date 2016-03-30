@@ -1,4 +1,4 @@
-/*! playmutron v0.1.0 by ryanpcmcquen */
+/*! playmutron v0.1.1 by ryanpcmcquen */
 /*global require, process*/
 /*jslint white:true, es6:true*/
 
@@ -18,8 +18,8 @@ let mainWindow;
   let createWindow = function () {
     // Create the browser window.
     mainWindow = new BrowserWindow({
-      width: 1024,
-      height: 600,
+      width: 1400,
+      height: 900,
       title: 'playmutron'
     });
     mainWindow.setAutoHideMenuBar(true);

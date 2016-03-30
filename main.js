@@ -1,4 +1,4 @@
-/*! amatron v0.1.2 by ryanpcmcquen */
+/*! playmutron v0.1.0 by ryanpcmcquen */
 /*global require, process*/
 /*jslint white:true, es6:true*/
 
@@ -18,13 +18,15 @@ let mainWindow;
   let createWindow = function () {
     // Create the browser window.
     mainWindow = new BrowserWindow({
-      title: 'amatron'
+      width: 1024,
+      height: 600,
+      title: 'playmutron'
     });
     mainWindow.setAutoHideMenuBar(true);
     mainWindow.setMenuBarVisibility(false);
-    mainWindow.maximize();
+    //mainWindow.maximize();
 
-    mainWindow.loadURL('https://smile.amazon.com/clouddrive');
+    mainWindow.loadURL('https://music.google.com/');
 
     // Open the DevTools.
     //mainWindow.webContents.openDevTools();

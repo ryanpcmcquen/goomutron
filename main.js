@@ -1,4 +1,4 @@
-/*! playmutron v0.1.1 by ryanpcmcquen */
+/*! goomutron v0.1.2 by ryanpcmcquen */
 /*global require, process*/
 /*jslint white:true, es6:true*/
 
@@ -20,7 +20,7 @@ let mainWindow;
     mainWindow = new BrowserWindow({
       width: 1400,
       height: 900,
-      title: 'playmutron'
+      title: 'goomutron'
     });
     mainWindow.setAutoHideMenuBar(true);
     mainWindow.setMenuBarVisibility(false);
